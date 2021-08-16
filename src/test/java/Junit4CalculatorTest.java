@@ -1,13 +1,13 @@
-import org.junit.jupiter.api.BeforeEach;
-import org.junit.jupiter.api.Test;
+import org.junit.Before;
+import org.junit.Test;
 
-import static org.junit.jupiter.api.Assertions.assertEquals;
+import static org.junit.Assert.*;
 
-class Junit5Test {
+public class Junit4CalculatorTest {
 
     private Calculator calculator;
 
-    @BeforeEach
+    @Before
     public void calculator() {
         calculator = new Calculator();
     }

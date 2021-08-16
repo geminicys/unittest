@@ -3,7 +3,7 @@ import org.testng.annotations.Test;
 
 import static org.testng.Assert.*;
 
-public class TestNGTest {
+public class TestNGCalculatorTest {
     private Calculator calculator;
 
     @BeforeMethod
